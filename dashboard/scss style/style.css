@@ -1,0 +1,2017 @@
+body.pagewrapperbox {
+  margin: 0px;
+  padding: 0px;
+  background-color: #ffffff;
+  color: #141414;
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+body.pagewrapperbox .headbg {
+  background: #ffffff;
+  border-radius: 0px;
+  padding: 16px 10px;
+  /* z-index: 99; */
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding-left: 200px !important;
+  border-bottom: 1px solid #e9e9e9;
+}
+body.pagewrapperbox .headbg .headbg a.navbar-brand {
+  padding: 0px;
+}
+body.pagewrapperbox .headbg .mobiletoggle {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  right: 16px;
+  z-index: 999;
+  padding: 0px 0px;
+}
+body.pagewrapperbox .headbg .mobiletoggle button {
+  padding: 2px 10px;
+  border: 0px;
+  background: none;
+}
+body.pagewrapperbox .headbg .mobiletoggle img {
+  width: 27px;
+}
+body.pagewrapperbox .headbg .logo {
+  display: none;
+}
+body.pagewrapperbox .headbg .form-control {
+  font-size: 13px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d2d6da;
+  color: #252a2f;
+  box-shadow: none;
+  outline: none;
+  font-weight: 600;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+}
+body.pagewrapperbox .headbg ul li .sitebtn {
+  background: #e9e8f4;
+  border-radius: 7px;
+  border: 1px solid #e9e8f4;
+  color: #4840a4;
+  padding: 8px 19px !important;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body.pagewrapperbox .headbg .hidenav {
+  display: none;
+}
+body.pagewrapperbox .side {
+  position: relative;
+}
+body.pagewrapperbox .side .leftsidemenu {
+  display: inline-block;
+  background: #382f9c;
+  position: fixed !important;
+  left: 0px;
+  top: 0;
+  height: 100%;
+  width: 80px;
+  z-index: 99 !important;
+  padding: 20px 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 17px 0 rgba(26, 26, 26, 0.18);
+}
+body.pagewrapperbox .side .leftsidemenu .overimg {
+  height: 100%;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .logo {
+  width: 100%;
+  max-width: 33px;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul {
+  padding: 0px;
+  margin: 18px 0px;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li {
+  list-style: none;
+  text-align: center;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a {
+  padding: 11px 5px;
+  color: #847ec2;
+  font-size: 13px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview {
+  color: #ffffff;
+  margin-right: 11px;
+  padding-top: 5px;
+  border-radius: 7px;
+  text-align: center;
+  display: inline-block;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview img {
+  width: 100%;
+  max-width: 20px;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a div {
+  display: inline-block;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:hover,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:focus,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a:hover {
+  color: #f7841e;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a.active {
+  color: #fff;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt hr.linediv {
+  height: 3px;
+  color: #7973c7;
+  width: 34px;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav {
+  bottom: 0px;
+  position: absolute;
+  margin: 4px 0px;
+  display: flex;
+  justify-content: space-between;
+  right: 0px;
+  left: 0px;
+  background: #382f9c;
+  padding: 13px 8px;
+  box-shadow: 0px 0px 5px 0px #4e45b4;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li {
+  list-style: none;
+  text-align: center;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li img {
+  width: 100%;
+  max-width: 20px;
+}
+body.pagewrapperbox .side .leftsidemenu .overimg::before {
+  content: "";
+  background: url(../images/assets/sidebar_overlay.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0px;
+  height: 12px;
+  z-index: 99;
+  width: 38px;
+  left: 0px;
+  margin: 0;
+  height: 243px;
+}
+body.pagewrapperbox .side .leftsidemenu.active {
+  width: 235px;
+}
+body.pagewrapperbox .gridparentbox {
+  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-left: 235px !important;
+}
+body.pagewrapperbox .gridparentbox .container {
+  width: 100%;
+  max-width: 100%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox {
+  border-bottom: 1px solid #ccc;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox {
+  background: white;
+  position: relative;
+  border-radius: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 2px 10px;
+  border-right: 1px solid #ccc;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .heading-box {
+  color: #252a2f;
+  text-transform: capitalize;
+  padding: 16px 16px;
+  font-size: 22px;
+  font-weight: 600;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox {
+  position: absolute;
+  right: 27px;
+  top: 10px;
+  margin-top: 1px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span {
+  margin: 0px 15px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .sitebtn {
+  background: #e9e8f4;
+  border-radius: 7px;
+  border: 1px solid #e9e8f4;
+  color: #4840a4;
+  padding: 8px 12px !important;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .menudot {
+  font-size: 22px;
+  padding: 6px 3px;
+  color: #000;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitescroll {
+  max-height: 772px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox [data-simplebar] {
+  position: relative;
+  z-index: 0;
+  overflow: hidden !important;
+  max-height: inherit;
+  -webkit-overflow-scrolling: touch;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox [data-simplebar=init] {
+  display: flex;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-scroll-content {
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  min-width: 100% !important;
+  max-height: inherit !important;
+  box-sizing: content-box !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-content {
+  overflow-y: hidden !important;
+  overflow-x: scroll;
+  box-sizing: border-box !important;
+  min-height: 100% !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track {
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-scrollbar {
+  position: absolute;
+  right: 2px;
+  width: 6px;
+  min-height: 10px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-scrollbar:before {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.42);
+  border-radius: 7px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track:hover .simplebar-scrollbar:before,
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track .simplebar-scrollbar.visible:before {
+  opacity: 0.5;
+  transition: opacity 0 linear;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.vertical {
+  top: 0;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.vertical .simplebar-scrollbar:before {
+  top: 2px;
+  bottom: 2px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.horizontal {
+  left: 0;
+  width: auto;
+  height: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.horizontal .simplebar-scrollbar:before {
+  height: 100%;
+  left: 2px;
+  right: 2px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .horizontal.simplebar-track .simplebar-scrollbar {
+  right: auto;
+  top: 2px;
+  height: 7px;
+  min-height: 0;
+  min-width: 10px;
+  width: auto;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitetable thead tr th {
+  border: 0px;
+  border-right: 1px solid #f2f2f2;
+  color: #252a2f;
+  font-size: 13px;
+  padding: 11px 13px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  margin: 0px;
+  font-weight: 600;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody {
+  border-top: 0px !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr td {
+  border: 0px;
+  border-right: 1px solid #f2f2f2;
+  font-size: 14px;
+  padding: 14px 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #000000;
+  vertical-align: middle;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr td span.num {
+  background: #e9e8f4;
+  padding: 8px 11px;
+  border-radius: 4px;
+  color: #382f9c;
+  margin-right: 5px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr:nth-child(odd) {
+  background: #f9f9f9 !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent {
+  padding: 15px 15px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox {
+  padding: 20px 13px;
+  background: #382f9c;
+  margin-bottom: 23px;
+  border-radius: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox {
+  display: table;
+  width: 100%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  padding-right: 15px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 7px 0px;
+  color: #847ec2;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .t-gray {
+  font-size: 16px;
+  font-weight: 600;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .report {
+  width: 100%;
+  background: #534ba9;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .firstchild {
+  width: 61px !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild {
+  padding-right: 0px;
+  width: 151px;
+  text-align: right;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-green {
+  background: #39c084;
+  color: #fff;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-red {
+  background: #eecfcf;
+  color: #f26565;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .anglec {
+  font-size: 14px;
+  padding: 0px 4px;
+  font-weight: 700;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox .t-gray {
+  color: #fff;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 {
+  padding: 20px 13px;
+  background: #f4f4f4;
+  margin-bottom: 23px;
+  border-radius: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 .report {
+  width: 100%;
+  background: #ffffff !important;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .e-btn {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bab6dd;
+  color: #3c349e;
+  font-size: 18px;
+  font-weight: 600;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul {
+  display: inline-block;
+  width: 100%;
+  border: 0px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li {
+  float: none;
+  width: 100%;
+  margin: 5px 0px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a {
+  padding: 0px 12px;
+  font-size: 14px;
+  background: #ffffff;
+  color: #1d1d1d;
+  border: 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px !important;
+  margin-bottom: 0px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox {
+  display: flex;
+  align-items: center;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 {
+  width: 10%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h5 {
+  font-size: 14px;
+  margin: 0px;
+  color: #4c4c4c;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox {
+  padding: 10px 12px;
+  font-size: 14px;
+  background: #f8f8f8;
+  color: #1d1d1d;
+  border: 1px solid #e5e5e5 !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px !important;
+  margin-bottom: 7px;
+  display: table;
+  width: 90%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox:hover {
+  background: #fff;
+  box-shadow: 0px 0px 8px 2px #e4e4e4;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  width: 50%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 {
+  font-size: 14px;
+  margin: 0px;
+  color: #4c4c4c;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 .menub {
+  font-size: 26px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox {
+  padding: 7px 13px;
+  background: #ffffff;
+  margin-bottom: 2px;
+  border-radius: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox {
+  display: table;
+  width: 100%;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 7px 0px;
+  color: #000000;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .t-gray {
+  font-size: 18px;
+  font-weight: 600;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .report {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .firstchild {
+  width: 61px !important;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild {
+  padding-right: 0px;
+  width: 151px;
+  text-align: right;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-blue {
+  background: #382f9c;
+  color: #fff;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-red {
+  background: #eecfcf;
+  color: #f26565;
+}
+body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .e-btn {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bab6dd;
+  color: #3c349e;
+  font-size: 18px;
+  font-weight: 600;
+}
+body.pagewrapperbox .btn:focus {
+  outline: 0px;
+  box-shadow: none;
+}
+
+body .headbg {
+  background: #ffffff;
+  border-radius: 0px;
+  padding: 16px 10px;
+  /* z-index: 99; */
+  position: relative;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  padding-left: 60px !important;
+  border-bottom: 1px solid #e9e9e9;
+}
+body .headbg .container {
+  width: 100%;
+  max-width: 100%;
+}
+body .headbg .container .headbg a.navbar-brand {
+  padding: 0px;
+}
+body .headbg .container .mobiletoggle {
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  right: 16px;
+  z-index: 999;
+  padding: 0px 0px;
+}
+body .headbg .container .mobiletoggle button {
+  padding: 2px 10px;
+  border: 0px;
+  background: none;
+}
+body .headbg .container .mobiletoggle img {
+  width: 27px;
+}
+body .headbg .container .logo {
+  display: none;
+}
+body .headbg .container .form-control {
+  font-size: 13px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d2d6da;
+  color: #252a2f;
+  box-shadow: none;
+  outline: none;
+  font-weight: 600;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  appearance: auto;
+}
+body .headbg .container ul li .sitebtn {
+  background: #e9e8f4;
+  border-radius: 7px;
+  border: 1px solid #e9e8f4;
+  color: #4840a4;
+  padding: 8px 19px !important;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+body .headbg .container .hidenav {
+  display: none;
+}
+body .side {
+  position: relative;
+}
+body .side .leftsidemenu {
+  display: inline-block;
+  background: #382f9c;
+  position: fixed !important;
+  left: 0px;
+  top: 0;
+  height: 100%;
+  width: 80px;
+  z-index: 99 !important;
+  padding: 20px 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 17px 0 rgba(26, 26, 26, 0.18);
+}
+body .side .leftsidemenu .overimg {
+  height: 100%;
+}
+body .side .leftsidemenu .overimg .logo {
+  width: 100%;
+  max-width: 33px;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul {
+  padding: 0px;
+  margin: 18px 0px;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li {
+  list-style: none;
+  text-align: center;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a {
+  padding: 11px 5px;
+  color: #847ec2;
+  font-size: 13px;
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  position: relative;
+  margin-bottom: 0;
+  border-radius: 0;
+  border-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview {
+  color: #ffffff;
+  padding-top: 5px;
+  border-radius: 7px;
+  text-align: center;
+  display: inline-block;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview img {
+  width: 100%;
+  max-width: 20px;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a div {
+  display: none;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:hover,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:focus,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a:hover {
+  color: #f7841e;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a.active {
+  color: #fff;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt hr.linediv {
+  height: 3px;
+  color: #7973c7;
+  width: 34px;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav {
+  bottom: 0px;
+  position: absolute;
+  margin: 4px 5px;
+  right: 0px;
+  left: 0px;
+  background: #382f9c;
+  padding: 13px 8px;
+  box-shadow: 0px 0px 5px 0px #4e45b4;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li {
+  list-style: none;
+  text-align: center;
+  padding-top: 9px;
+}
+body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li img {
+  width: 100%;
+  max-width: 20px;
+}
+body .side .leftsidemenu .overimg::before {
+  content: "";
+  background: url(../images/assets/sidebar_overlay.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0px;
+  height: 12px;
+  z-index: 99;
+  width: 38px;
+  left: 0px;
+  margin: 0;
+  height: 243px;
+}
+body .gridparentbox {
+  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-left: 65px !important;
+}
+body .gridparentbox .container {
+  width: 100%;
+  max-width: 100%;
+}
+body .gridparentbox .container .flexbox {
+  border-bottom: 1px solid #ccc;
+}
+body .gridparentbox .container .flexbox .panelcontentbox {
+  background: white;
+  position: relative;
+  border-radius: 0px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 2px 10px;
+  border-right: 1px solid #ccc;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .heading-box {
+  color: #252a2f;
+  text-transform: capitalize;
+  padding: 16px 16px;
+  font-size: 22px;
+  font-weight: 600;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox {
+  position: absolute;
+  right: 27px;
+  top: 10px;
+  margin-top: 1px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span {
+  margin: 0px 15px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .sitebtn {
+  background: #e9e8f4;
+  border-radius: 7px;
+  border: 1px solid #e9e8f4;
+  color: #4840a4;
+  padding: 8px 12px !important;
+  font-weight: 600;
+  line-height: 24px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .menudot {
+  font-size: 22px;
+  padding: 6px 3px;
+  color: #000;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitescroll {
+  max-height: 772px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox [data-simplebar] {
+  position: relative;
+  z-index: 0;
+  overflow: hidden !important;
+  max-height: inherit;
+  -webkit-overflow-scrolling: touch;
+}
+body .gridparentbox .container .flexbox .panelcontentbox [data-simplebar=init] {
+  display: flex;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-scroll-content {
+  overflow-x: hidden !important;
+  overflow-y: scroll;
+  min-width: 100% !important;
+  max-height: inherit !important;
+  box-sizing: content-box !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-content {
+  overflow-y: hidden !important;
+  overflow-x: scroll;
+  box-sizing: border-box !important;
+  min-height: 100% !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track {
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-scrollbar {
+  position: absolute;
+  right: 2px;
+  width: 6px;
+  min-height: 10px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-scrollbar:before {
+  position: absolute;
+  content: "";
+  background: rgba(0, 0, 0, 0.42);
+  border-radius: 7px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: opacity 0.2s linear;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track:hover .simplebar-scrollbar:before,
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track .simplebar-scrollbar.visible:before {
+  opacity: 0.5;
+  transition: opacity 0 linear;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.vertical {
+  top: 0;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.vertical .simplebar-scrollbar:before {
+  top: 2px;
+  bottom: 2px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.horizontal {
+  left: 0;
+  width: auto;
+  height: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .simplebar-track.horizontal .simplebar-scrollbar:before {
+  height: 100%;
+  left: 2px;
+  right: 2px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .horizontal.simplebar-track .simplebar-scrollbar {
+  right: auto;
+  top: 2px;
+  height: 7px;
+  min-height: 0;
+  min-width: 10px;
+  width: auto;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitetable thead tr th {
+  border: 0px;
+  border-right: 1px solid #f2f2f2;
+  color: #252a2f;
+  font-size: 13px;
+  padding: 11px 13px;
+  white-space: nowrap;
+  text-transform: capitalize;
+  margin: 0px;
+  font-weight: 600;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody {
+  border-top: 0px !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr td {
+  border: 0px;
+  border-right: 1px solid #f2f2f2;
+  font-size: 14px;
+  padding: 14px 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  line-height: 18px;
+  color: #000000;
+  vertical-align: middle;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr td span.num {
+  background: #e9e8f4;
+  padding: 8px 11px;
+  border-radius: 4px;
+  color: #382f9c;
+  margin-right: 5px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .sitetable tbody tr:nth-child(odd) {
+  background: #f9f9f9 !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent {
+  padding: 15px 15px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox {
+  padding: 20px 13px;
+  background: #382f9c;
+  margin-bottom: 23px;
+  border-radius: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox {
+  display: table;
+  width: 100%;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  padding-right: 15px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 7px 0px;
+  color: #847ec2;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .t-gray {
+  font-size: 16px;
+  font-weight: 600;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .report {
+  width: 100%;
+  background: #534ba9;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .firstchild {
+  width: 61px !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild {
+  padding-right: 0px;
+  width: 151px;
+  text-align: right;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-green {
+  background: #39c084;
+  color: #fff;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-red {
+  background: #eecfcf;
+  color: #f26565;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .anglec {
+  font-size: 14px;
+  padding: 0px 4px;
+  font-weight: 700;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox .t-gray {
+  color: #fff;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 {
+  padding: 20px 13px;
+  background: #f4f4f4;
+  margin-bottom: 23px;
+  border-radius: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 .report {
+  width: 100%;
+  background: #ffffff !important;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .e-btn {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bab6dd;
+  color: #3c349e;
+  font-size: 18px;
+  font-weight: 600;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul {
+  display: inline-block;
+  width: 100%;
+  border: 0px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li {
+  float: none;
+  width: 100%;
+  margin: 5px 0px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a {
+  padding: 0px 12px;
+  font-size: 14px;
+  background: #ffffff;
+  color: #1d1d1d;
+  border: 0px !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px !important;
+  margin-bottom: 0px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox {
+  display: flex;
+  align-items: center;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 {
+  width: 10%;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+  text-transform: capitalize;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h5 {
+  font-size: 14px;
+  margin: 0px;
+  color: #4c4c4c;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox {
+  padding: 12px 12px;
+  font-size: 14px;
+  background: #f8f8f8;
+  color: #1d1d1d;
+  border: 1px solid #e5e5e5 !important;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 5px !important;
+  margin-bottom: 7px;
+  display: table;
+  width: 90%;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox:hover {
+  background: #fff;
+  box-shadow: 0px 0px 8px 2px #e4e4e4;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+  width: 50%;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h3 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 {
+  font-size: 14px;
+  margin: 0px;
+  color: #4c4c4c;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 .menub {
+  font-size: 26px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox {
+  padding: 7px 13px;
+  background: #ffffff;
+  margin-bottom: 2px;
+  border-radius: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox {
+  display: table;
+  width: 100%;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div h4 {
+  font-size: 13px;
+  font-weight: 700;
+  margin: 7px 0px;
+  color: #000000;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .t-gray {
+  font-size: 18px;
+  font-weight: 600;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .report {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 8px;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .firstchild {
+  width: 61px !important;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild {
+  padding-right: 0px;
+  width: 151px;
+  text-align: right;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-blue {
+  background: #382f9c;
+  color: #fff;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-red {
+  background: #eecfcf;
+  color: #f26565;
+}
+body .gridparentbox .container .flexbox .panelcontentbox .screenshot .e-btn {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bab6dd;
+  color: #3c349e;
+  font-size: 18px;
+  font-weight: 600;
+}
+body .btn:focus {
+  outline: 0px;
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  body.pagewrapperbox .headbg {
+    background: #382f9c;
+    border-radius: 0px;
+    padding: 16px 10px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding-left: 0px !important;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  body.pagewrapperbox .headbg .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  body.pagewrapperbox .headbg .container .headbg a.navbar-brand {
+    padding: 0px;
+  }
+  body.pagewrapperbox .headbg .container button {
+    border: 0px;
+    background: #e9e8f4;
+    border-color: transparent;
+  }
+  body.pagewrapperbox .headbg .container button .navbar-toggler-icon {
+    background-image: none;
+  }
+  body.pagewrapperbox .headbg .container button .navbar-toggler-icon i {
+    font-size: 22px;
+    color: #382f9c;
+    padding: 5px 3px;
+    border-radius: 6px;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 56px;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle button {
+    padding: 2px 10px;
+    border: 0px;
+    background: none;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle img {
+    width: 27px;
+  }
+  body.pagewrapperbox .headbg .container .logo {
+    display: block;
+  }
+  body.pagewrapperbox .headbg .container .navbar-collapse {
+    margin: 25px 0px;
+  }
+  body.pagewrapperbox .headbg .container .navbar-collapse ul li {
+    padding: 10px 0px;
+  }
+  body.pagewrapperbox .side {
+    position: relative;
+  }
+  body.pagewrapperbox .side .leftsidemenu {
+    display: inline-block;
+    background: #382f9c;
+    position: fixed !important;
+    left: 0px;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    z-index: 99 !important;
+    padding: 20px 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 17px 0 rgba(26, 26, 26, 0.18);
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg {
+    height: 100%;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .logo {
+    width: 100%;
+    max-width: 33px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul {
+    padding: 0px;
+    margin: 18px 0px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li {
+    list-style: none;
+    text-align: center;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a {
+    padding: 11px 5px;
+    color: #847ec2;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview {
+    color: #ffffff;
+    margin-right: 11px;
+    padding-top: 5px;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a div {
+    display: inline-block;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:hover,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:focus,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a:hover {
+    color: #f7841e;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a.active {
+    color: #fff;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt hr.linediv {
+    height: 3px;
+    color: #7973c7;
+    width: 34px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav {
+    bottom: 0px;
+    position: absolute;
+    margin: 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+    background: #382f9c;
+    padding: 13px 8px;
+    box-shadow: 0px 0px 5px 0px #4e45b4;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li {
+    list-style: none;
+    text-align: center;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body.pagewrapperbox .side .leftsidemenu.active {
+    width: 235px;
+    display: none;
+  }
+  body.pagewrapperbox .gridparentbox {
+    padding-bottom: 15px;
+    padding-top: 70px;
+    padding-left: 0px !important;
+  }
+  body.pagewrapperbox .gridparentbox .container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body .headbg {
+    background: #ffffff;
+    border-radius: 0px;
+    padding: 16px 10px;
+    /* z-index: 99; */
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding-left: 0px !important;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  body .headbg .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  body .headbg .container .headbg a.navbar-brand {
+    padding: 0px;
+  }
+  body .headbg .container .navbar-toggler-icon {
+    background-image: none;
+  }
+  body .headbg .container .navbar-toggler-icon i {
+    font-size: 18px;
+    color: #382f9c;
+    background: #e9e8f4;
+    padding: 7px 10px;
+    border-radius: 6px;
+  }
+  body .headbg .container .mobiletoggle {
+    display: inline-block;
+    position: fixed;
+    top: 22px;
+    left: 224px;
+  }
+  body .headbg .container .mobiletoggle button {
+    padding: 2px 10px;
+    border: 0px;
+    background: none;
+  }
+  body .headbg .container .mobiletoggle img {
+    width: 27px;
+  }
+  body .headbg .container .logo {
+    display: block;
+  }
+  body .side {
+    position: relative;
+  }
+  body .side .leftsidemenu {
+    display: block;
+    width: 250px;
+    top: 0px;
+    background: #382f9c;
+  }
+  body .side .leftsidemenu .overimg {
+    height: 100%;
+  }
+  body .side .leftsidemenu .overimg .logo {
+    width: 100%;
+    max-width: 33px;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul {
+    padding: 0px;
+    margin: 18px 0px;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li {
+    list-style: none;
+    text-align: center;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a {
+    padding: 11px 5px;
+    color: #847ec2;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview {
+    color: #ffffff;
+    margin-right: 11px;
+    padding-top: 5px;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a div {
+    display: inline-block;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:hover,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:focus,
+body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a:hover {
+    color: #f7841e;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a.active {
+    color: #fff;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .topnavt hr.linediv {
+    height: 3px;
+    color: #7973c7;
+    width: 34px;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav {
+    bottom: 0px;
+    position: absolute;
+    margin: 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+    background: #382f9c;
+    padding: 13px 8px;
+    box-shadow: 0px 0px 5px 0px #4e45b4;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li {
+    list-style: none;
+    text-align: center;
+  }
+  body .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body .side .leftsidemenu.active {
+    display: none;
+  }
+  body .gridparentbox {
+    padding-bottom: 15px;
+    padding-top: 70px;
+    padding-left: 0px !important;
+  }
+  body .gridparentbox .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  body.pagewrapperbox .gridparentbox td {
+    border: 0px;
+    border-right: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 16px 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 18px;
+    color: #000000;
+    vertical-align: middle;
+  }
+
+  body td {
+    border: 0px;
+    border-right: 1px solid #f2f2f2;
+    font-size: 14px;
+    padding: 16px 14px;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 18px;
+    color: #000000;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 500px) {
+  body.pagewrapperbox .headbg {
+    background: #382f9c;
+    border-radius: 0px;
+    padding: 16px 10px;
+    z-index: 99;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    padding-left: 0px !important;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  body.pagewrapperbox .headbg .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  body.pagewrapperbox .headbg .container .headbg a.navbar-brand {
+    padding: 0px;
+  }
+  body.pagewrapperbox .headbg .container button {
+    border: 0px;
+    background: #e9e8f4;
+    border-color: transparent;
+  }
+  body.pagewrapperbox .headbg .container button .navbar-toggler-icon {
+    background-image: none;
+  }
+  body.pagewrapperbox .headbg .container button .navbar-toggler-icon i {
+    font-size: 22px;
+    color: #382f9c;
+    padding: 5px 3px;
+    border-radius: 6px;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 56px;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle button {
+    padding: 2px 10px;
+    border: 0px;
+    background: none;
+  }
+  body.pagewrapperbox .headbg .container .mobiletoggle img {
+    width: 27px;
+  }
+  body.pagewrapperbox .headbg .container .logo {
+    display: block;
+  }
+  body.pagewrapperbox .headbg .container .navbar-collapse {
+    margin: 25px 0px;
+  }
+  body.pagewrapperbox .headbg .container .navbar-collapse ul li {
+    padding: 10px 0px;
+  }
+  body.pagewrapperbox .side {
+    position: relative;
+  }
+  body.pagewrapperbox .side .leftsidemenu {
+    display: inline-block;
+    background: #382f9c;
+    position: fixed !important;
+    left: 0px;
+    top: 0;
+    height: 100%;
+    width: 80px;
+    z-index: 99 !important;
+    padding: 20px 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 17px 0 rgba(26, 26, 26, 0.18);
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg {
+    height: 100%;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .logo {
+    width: 100%;
+    max-width: 33px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul {
+    padding: 0px;
+    margin: 18px 0px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li {
+    list-style: none;
+    text-align: center;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a {
+    padding: 11px 5px;
+    color: #847ec2;
+    font-size: 13px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    margin-bottom: 0;
+    border-radius: 0;
+    border-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview {
+    color: #ffffff;
+    margin-right: 11px;
+    padding-top: 5px;
+    border-radius: 7px;
+    text-align: center;
+    display: inline-block;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a .iconview img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a div {
+    display: inline-block;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:hover,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a.active:focus,
+body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a a:hover {
+    color: #f7841e;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt ul li a.active {
+    color: #fff;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .topnavt hr.linediv {
+    height: 3px;
+    color: #7973c7;
+    width: 34px;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav {
+    bottom: 0px;
+    position: absolute;
+    margin: 4px 0px;
+    display: flex;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+    background: #382f9c;
+    padding: 13px 8px;
+    box-shadow: 0px 0px 5px 0px #4e45b4;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li {
+    list-style: none;
+    text-align: center;
+  }
+  body.pagewrapperbox .side .leftsidemenu .overimg .leftsidescroll .botnavt ul.bottomnav li img {
+    width: 100%;
+    max-width: 20px;
+  }
+  body.pagewrapperbox .side .leftsidemenu.active {
+    width: 235px;
+    display: none;
+  }
+  body.pagewrapperbox .gridparentbox {
+    padding-bottom: 15px;
+    padding-top: 70px;
+    padding-left: 0px !important;
+  }
+  body.pagewrapperbox .gridparentbox .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox {
+    border-bottom: 1px solid #ccc;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox {
+    background: white;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 2px 10px;
+    border-right: 1px solid #ccc;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .heading-box {
+    text-align: center;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox {
+    position: initial;
+    right: inherit;
+    top: 10px;
+    margin-top: 1px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span {
+    margin: 0px 15px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .sitebtn {
+    background: #e9e8f4;
+    border-radius: 7px;
+    border: 1px solid #e9e8f4;
+    color: #4840a4;
+    padding: 8px 12px !important;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .menudot {
+    font-size: 22px;
+    padding: 6px 3px;
+    color: #000;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent {
+    padding: 15px 15px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox {
+    padding: 20px 13px;
+    background: #382f9c;
+    margin-bottom: 23px;
+    border-radius: 8px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox {
+    display: table;
+    width: 100%;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    padding-right: 15px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 7px 0px;
+    color: #847ec2;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .t-gray {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox div .report {
+    width: 100%;
+    background: #534ba9;
+    padding: 10px 10px;
+    border-radius: 8px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .firstchild {
+    width: 61px !important;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild {
+    padding-right: 0px;
+    width: 151px;
+    text-align: right;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-green {
+    background: #39c084;
+    color: #fff;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .t-red {
+    background: #eecfcf;
+    color: #f26565;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .contentbox .profiletablebox .lastchild .anglec {
+    font-size: 14px;
+    padding: 0px 4px;
+    font-weight: 700;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox .t-gray {
+    color: #fff;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 {
+    padding: 20px 13px;
+    background: #f4f4f4;
+    margin-bottom: 23px;
+    border-radius: 8px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .faverifybox1 .report {
+    width: 100%;
+    background: #ffffff !important;
+    padding: 10px 10px;
+    border-radius: 8px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .e-btn {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #bab6dd;
+    color: #3c349e;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul {
+    display: inline-block;
+    width: 100%;
+    border: 0px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li {
+    float: none;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a {
+    padding: 0px 12px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #1d1d1d;
+    border: 0px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px !important;
+    margin-bottom: 0px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox {
+    display: block;
+    align-items: center;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 {
+    width: 100%;
+    text-align: center;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h5 {
+    font-size: 14px;
+    margin: 0px;
+    color: #4c4c4c;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox {
+    padding: 10px 12px;
+    font-size: 14px;
+    background: #f8f8f8;
+    color: #1d1d1d;
+    border: 1px solid #e5e5e5 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px !important;
+    margin-bottom: 7px;
+    display: table;
+    width: 100%;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox:hover {
+    background: #fff;
+    box-shadow: 0px 0px 8px 2px #e4e4e4;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    width: 50%;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 {
+    font-size: 14px;
+    margin: 0px;
+    color: #4c4c4c;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 .menub {
+    font-size: 26px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox {
+    padding: 7px 13px;
+    background: #ffffff;
+    margin-bottom: 2px;
+    border-radius: 0px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox {
+    display: table;
+    width: 100%;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div h4 {
+    font-size: 13px;
+    font-weight: 700;
+    margin: 7px 0px;
+    color: #000000;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .t-gray {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox div .report {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 8px;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .firstchild {
+    width: 61px !important;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild {
+    padding-right: 0px;
+    width: 151px;
+    text-align: right;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-blue {
+    background: #382f9c;
+    color: #fff;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .contentbox .screentablebox .lastchild .t-red {
+    background: #eecfcf;
+    color: #f26565;
+  }
+  body.pagewrapperbox .gridparentbox .container .flexbox .panelcontentbox .screenshot .e-btn {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #bab6dd;
+    color: #3c349e;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  body .gridparentbox {
+    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 65px !important;
+  }
+  body .gridparentbox .container {
+    width: 100%;
+    max-width: 100%;
+  }
+  body .gridparentbox .container .flexbox {
+    border-bottom: 1px solid #ccc;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox {
+    background: white;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 2px 10px;
+    border-right: 1px solid #ccc;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .heading-box {
+    color: #252a2f;
+    text-transform: capitalize;
+    padding: 16px 16px;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox {
+    position: absolute;
+    right: 27px;
+    top: 10px;
+    margin-top: 1px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span {
+    margin: 0px 15px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .sitebtn {
+    background: #e9e8f4;
+    border-radius: 7px;
+    border: 1px solid #e9e8f4;
+    color: #4840a4;
+    padding: 8px 12px !important;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .tabrightbox span .menudot {
+    font-size: 22px;
+    padding: 6px 3px;
+    color: #000;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent {
+    padding: 15px 15px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul {
+    display: inline-block;
+    width: 100%;
+    border: 0px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li {
+    float: none;
+    width: 100%;
+    margin: 5px 0px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a {
+    padding: 0px 12px;
+    font-size: 14px;
+    background: #ffffff;
+    color: #1d1d1d;
+    border: 0px !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px !important;
+    margin-bottom: 0px;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox {
+    display: block;
+    align-items: center;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 {
+    width: 100%;
+    text-align: center;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h3 {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox1 h5 {
+    font-size: 14px;
+    margin: 0px;
+    color: #4c4c4c;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox {
+    padding: 12px 12px;
+    font-size: 14px;
+    background: #f8f8f8;
+    color: #1d1d1d;
+    border: 1px solid #e5e5e5 !important;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px !important;
+    margin-bottom: 7px;
+    display: table;
+    width: 100%;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox:hover {
+    background: #fff;
+    box-shadow: 0px 0px 8px 2px #e4e4e4;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+    width: 50%;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h3 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 {
+    font-size: 14px;
+    margin: 0px;
+    color: #4c4c4c;
+  }
+  body .gridparentbox .container .flexbox .panelcontentbox .innercontent .totalday ul li a .wllttablebox .datebox > div h5 .menub {
+    font-size: 26px;
+  }
+  body .btn:focus {
+    outline: 0px;
+    box-shadow: none;
+  }
+}/*# sourceMappingURL=style.css.map */

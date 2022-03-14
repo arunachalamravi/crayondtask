@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="scss style/style.css">
+ </head>
+
+<body class="pagewrapperbox">
+	<article >
+		<section class="header">
+			<nav class="navbar navbar-expand-lg navbar-dark headbg">
+				<div class="container">
+					<a class="navbar-brand" href="index.php"><img src="images/assets/logo.png" class="logo" /></a>
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span> </button>
+					<li class="mobiletoggle">
+						<button type="button" id="sidebarCollapse" class="btn sidebtntoggle"><img src="images/assets/left_arrow.png"></button>
+					</li>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav ">
+							<li class="nav-item">
+								<div class="input-group">
+									<button type="button" class="btn btn-outline-secondary">Design Task</button>
+									<button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false"> <span class="visually-hidden">Toggle Dropdown</span> </button>
+									<ul class="dropdown-menu">
+										<li><a class="dropdown-item" href="#">task</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item"><a href="#" class="btn sitebtn">+ Add project</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</section>
+		<section class="side">
+			<div class="leftsidemenu active"> 
+				<div class="overimg">
+					<img src="images/assets/logo.png" class="logo" />
+				<div class="leftsidescroll" data-simplebar>
+					<div class="topnavt">
+						<ul>
+							<li><a href="index.html" class="active"><span class="iconview"><img src="images/assets/speedometer.png" alt=""></span><div>Dashboard</div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/graph.png" alt=""></span><div>Activity</div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/timer_white.png" alt=""></span><div>Timesheet</div></a></li>
+						</ul>
+						<hr class="linediv">
+						<ul>
+							<li><a href="#"><span class="iconview"><img src="images/assets/icons8-today-96.png" alt=""></span><div>To-Do</div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/bill.png" alt=""></span><div>Invoices</div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/folder.png" alt=""></span><div>Projects</div></a></li>
+						</ul>
+						<hr class="linediv">
+						<ul>
+							<li><a href="#"><span class="iconview"><img src="images/assets/help.png" alt=""></span><div>Help</div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/download.png" alt=""></span><div>Download APP</div></a></li>
+						</ul>
+					</div>
+					<div class="botnavt">
+						<ul class="bottomnav">
+							<li><a href="#"><span class="iconview"><img src="images/assets/notification.png" alt=""></span><div></div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/settings.png" alt=""></span><div></div></a></li>
+							<li><a href="#"><span class="iconview"><img src="images/assets/profile.png" alt=""></span><div></div></a></li>
+						</ul>
+					</div>
+					
+				</div>
+				</div>
+			</div>
+		</section>
+		<section class="gridparentbox">
+			<div class="maincontent">
+				<div class="container">
+					<div class="row flexbox">
+						<div class="col-lg-8 col-md-8 col-sm-12 col-12 p-0">
+							<div class="panelcontentbox">
+								<h1 class="heading-box">Time sheet</h1>
+								<div class="tabrightbox"> <span><a href="#" class="btn sitebtn">View Full Projects</a></span><span><a href="" class="menudot"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></span></div>
+								<div class="innercontent">
+									<div class="table-responsive sitescroll" data-simplebar>
+										<table class="table sitetable table-responsive-stack" id="table1">
+											<thead>
+												<tr>
+													<th>project</th>
+													<th>Date</th>
+													<th>Start time</th>
+													<th>Stop time</th>
+													<th>Duration</th>
+												</tr>
+											</thead>
+											<tbody id="myTable">
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12 p-0">
+							<div class="panelcontentbox">
+								<h1 class="heading-box">Report</h1>
+								<div class="innercontent">
+									<div class="contentbox faverifybox">
+										<div class="profiletablebox">
+											<div class="firstchild">
+												<div class="report"><img src="images/assets/graph.png"> </div>
+											</div>
+											<div>
+												<h4>Weekly Activity</h4>
+												<h5 class="t-gray">52%</h5> </div>
+											<div class="lastchild text-right"> <a href="#" class="btn sitebtn btn-sm t-green"><span class="anglec"><i class="fa fa-angle-up" aria-hidden="true"></i></span>%17</a> </div>
+										</div>
+									</div>
+									<div class="contentbox faverifybox1">
+										<div class="profiletablebox">
+											<div class="firstchild">
+												<div class="report"><img src="images/assets/timer_blue.png"></div>
+											</div>
+											<div>
+												<h4>Worked This Week</h4>
+												<h5 class="t-gray">11:53:33</h5> </div>
+											<div class="lastchild text-right"> <a href="#" class="btn sitebtn btn-sm t-red"><span class="anglec"><i class="fa fa-angle-down" aria-hidden="true"></i></span>17%</a> </div>
+										</div>
+									</div>
+									<div class="exportbtn">
+										<a href="#" class="btn sitebtn e-btn"> <img src="images/assets/pdf.png" alt=""> Export as PDF</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row flexbox">
+						<div class="col-lg-8 col-md-8 col-sm-12 col-12 p-0">
+							<div class="panelcontentbox">
+								<h1 class="heading-box">To-Do-list</h1>
+								<div class="innercontent">
+									<div class="totalday">
+										<ul class="nav nav-tabs wallettab tabbanner" role="tablist">
+											<li class="nav-item">
+												<a class="nav-link active" data-toggle="tab" href="#">
+													<div class="wllttablebox">
+														<div class="datebox1">
+															<h5>20</h5>
+															<h6>MAy</h6> </div>
+														<div class="datebox">
+															<div>
+																<h3>Revamp Instagram APP</h3>
+																<h5 class=""> Today</h5> </div>
+															<div>
+																<h5 class="text-end"> <span class="menub"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></h5> </div>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link active" data-toggle="tab" href="#">
+													<div class="wllttablebox">
+														<div class="datebox1">
+															<h5>21</h5>
+															<h6>MAy</h6> </div>
+														<div class="datebox">
+															<div>
+																<h3>Prototyping</h3>
+																<h5 class=""> upcoming</h5> </div>
+															<div>
+																<h5 class="text-end"> <span class="menub"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></h5> </div>
+														</div>
+													</div>
+												</a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link active" data-toggle="tab" href="#">
+													<div class="wllttablebox">
+														<div class="datebox1">
+															<h5>22</h5>
+															<h6>MAy</h6> </div>
+														<div class="datebox">
+															<div>
+																<h3>Collect reference for your new projects</h3>
+																<h5 class=""> upcoming</h5> </div>
+															<div>
+																<h5 class="text-end"><span class="menub"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></span></h5> </div>
+														</div>
+													</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-4 col-sm-12 col-12 p-0">
+							<div class="panelcontentbox ">
+								<h1 class="heading-box">Screenshots</h1>
+								<div class="screenshot">
+									<div class="contentbox screenbox">
+										<div class="screentablebox">
+											<div class="firstchild">
+												<div class="report"><img src="images/assets/picture.png"> </div>
+											</div>
+											<div>
+												<h4>shot_1_attach.png</h4>
+												<h5 class="t-gray"></h5> </div>
+											<div class="lastchild text-right"> <a href="#" class="btn sitebtn btn-sm t-blue">View</a> </div>
+										</div>
+									</div>
+									<div class="contentbox screenbox">
+										<div class="screentablebox">
+											<div class="firstchild">
+												<div class="report"><img src="images/assets/picture.png"> </div>
+											</div>
+											<div>
+												<h4>shot_2_attach.png</h4>
+												<h5 class="t-gray"></h5> </div>
+											<div class="lastchild text-right"> <a href="#" class="btn sitebtn btn-sm t-blue">View</a> </div>
+										</div>
+									</div>
+									<div class="contentbox screenbox">
+										<div class="screentablebox">
+											<div class="firstchild">
+												<div class="report"><img src="images/assets/video_camera.png"> </div>
+											</div>
+											<div>
+												<h4>shot_3_attach.png</h4>
+												<h5 class="t-gray"></h5> </div>
+											<div class="lastchild text-right"> <a href="#" class="btn sitebtn btn-sm t-blue">play</a> </div>
+										</div>
+									</div>
+									<div class="exportbtn pt-3"> <a href="#" class="btn sitebtn e-btn">View All</a> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+	
+	</article>
+	
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/simplebar.js"></script>
+<script src="js/json.js"></script>
+
+
+</html>
